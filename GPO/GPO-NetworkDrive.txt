@@ -1,0 +1,17 @@
+Para agregar una unidad de red a través de una GPO:
+
+1- Abra el Editor de directivas de grupo en el servidor.
+
+2- Seleccione y/o cree la GPO con la que desea agregar trabajar y haga clic derecho en ella, seleccione la opción "Editar".
+
+3- Navegue hasta "Preferencias" o "Preferences", en la carpeta "Configuración del equipo" (Computer Configuration) o "Configuración de usuario" (User Configuration). Haga clic derecho en la 
+sección "Preferencias" y seleccione "Unidad de red" (Network Drive) y luego "Mapa de unidad" (Mapped Drive).
+
+4- Configure los detalles de la unidad de red, como la letra de unidad, la ruta de acceso, las credenciales y otros ajustes que necesite. Luego haga clic en "Aplicar" para guardar los cambios.
+
+5- Cierre la ventana del Editor de directivas de grupo.
+
+Algunos puntos a tener en cuenta son que, los clientes deben tener acceso de red contra el DC donde se configure la GPO y ademas tiene que estar asignada a la OU que corresponda segun 
+usuario y/o equipo.
+
+Comando para verificar 'GPRESULT -H' en un CMD 
