@@ -1,0 +1,5 @@
+$toMove='nameVM'
+Move-VM -Name $toMove -DestinationHost HVDestino -IncludeStorage -DestinationStoragePath C:\ClusterStorage\SAS\$toMove #este ubicacion podria ser otra
+$MovedVM = Get-VM -ComputerName HVName $toMove
+
+Get-VM -ComputerName HVDestino nameVM | Get-VMNetworkAdapter | Connect-VMNetworkAdapter -SwitchName "networkName" #por una cuestion de version el Get-VM no tomaba la variable $toMove y es por eso que volvi a escrivir el nombre de la VM
