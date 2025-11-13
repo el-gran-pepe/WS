@@ -1,4 +1,4 @@
-laps
+##laps
 Implementacion LAPS en DC
 LAPS (Local Administrator Password Solution), es una extension de Microsoft para administrar de forma robusta todas las cuentas admin local de equipos que formen parte de un dominio. Esto ultimo es fundamental hacer hincapie ya que todas las reglas, inclusive la instalacion del cliente LAPS, se parametrizan desde GPO.
 ¿Como funciona?
