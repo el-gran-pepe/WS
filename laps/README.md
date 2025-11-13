@@ -17,7 +17,11 @@ Algo importante, LAPS a partir de 2019 se rompe en funcion a heredar esta extens
 
 ### Archivos que contiene este proyecto
 LAPS.ps1      (Script para implementar LAPS)
+
 LAPSx64.msi   (Instalador LAPS para SO 64 bits)
+
 LAPSx86.msi   (Instalador LAPS para SO 32 bits)
+
 LAPS_InstruccionesDelImplementacion.docx (Instructivo recopilado para implementacion)
+
 LAPSAll.ps1    (Scripting de implementacion y consulta)
